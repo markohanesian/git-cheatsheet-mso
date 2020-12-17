@@ -15,7 +15,7 @@ class GitCommand extends React.Component {
             <code>{this.props.name}</code>
           </CopyToClipboard>
 
-          {this.state.copied ? <span style={{color: '#3CF639', backgroundColor: 'black', marginLeft: '4rem'}}>Copied.</span> : null}
+          {this.state.copied ? <span id="copied-text" >Copied.</span> : null}
         </div>
       );
     }

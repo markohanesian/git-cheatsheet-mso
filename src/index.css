@@ -35,6 +35,12 @@ code {
     monospace;
 }
 
+/* the popup text upon copying */
+#copied-text {
+  color: red;
+  margin-left: 4rem;
+}
+
 /* TEMPORARY FOOTER  */
 #footer-temporary {
   margin-top: 10rem;
