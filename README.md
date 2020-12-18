@@ -1,6 +1,8 @@
 # Git Good
-* [Deployed](http://gitgood.me/)
 ![Git Good Website Image](/public/gitgood-thumbnail.png)
+
+## Links
+* [Link to site](http://gitgood.me/)
 
 ## Description
 A cheatsheet of my most used/favorite git commands with copy to clipboard functionality
