@@ -1,5 +1,5 @@
 # Git Good
-* [Deployed]() coming soon
+* [Deployed](http://gitgood.me/)
 
 ## Description
 A cheatsheet of my most used/favorite git commands with copy to clipboard functionality
