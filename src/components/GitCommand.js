@@ -1,6 +1,7 @@
 import React from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Button, Tooltip } from "@material-ui/core";
+import FadingText from './FadingText';
 
 class GitCommand extends React.Component {
   state = {
@@ -10,7 +11,7 @@ class GitCommand extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="gitcommand-div">
         <Tooltip title={this.props.tooltip} placement="right-start">
           <Button id="gitcommand-button">
             <CopyToClipboard
@@ -21,8 +22,8 @@ class GitCommand extends React.Component {
             </CopyToClipboard>
           </Button>
         </Tooltip>
+        {this.state.copied ? <FadingText /> : null}
 
-        {this.state.copied ? <span id="copied-text">Copied.</span> : null}
       </div>
     );
   }
