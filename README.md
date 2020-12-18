@@ -17,6 +17,7 @@ To copy commands, click to copy it to your clipboard!
 * React
 * react-copy-to-clipboard
 * CSS Flexbox
+* React-transition-group
 
 ## Planned Features/Outstanding Issues
 * Animated text upon copying to clipboard
