@@ -12,7 +12,7 @@ class GitCommand extends React.Component {
     return (
       <div>
         <Tooltip title={this.props.tooltip} placement="right-start">
-          <Button>
+          <Button id="gitcommand-button">
             <CopyToClipboard
               text={this.state.value}
               onCopy={() => this.setState({ copied: true })}
