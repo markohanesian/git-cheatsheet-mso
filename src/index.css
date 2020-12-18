@@ -36,17 +36,24 @@ code {
 }
 
 /* GitCommand button */
+
+/* container that holds button, tooltip, animated text, etc. */
+#gitcommand-div {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
 #gitcommand-button {
   text-transform: lowercase;
   display: flex;
   justify-content: flex-start;
+  padding: 0;
+  margin: .5rem;
+  font-size: 1rem;
 }
 
-/* the popup text upon copying */
-#copied-text {
-  color: red;
-  margin-left: 4rem;
-}
 
 /* TEMPORARY FOOTER  */
 #footer-temporary {
