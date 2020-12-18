@@ -1,6 +1,5 @@
 import './App.css';
 import GitCommand from './components/GitCommand';
-import FadingText from './components/FadingText';
 
 function App() {
   return (
