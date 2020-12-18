@@ -35,6 +35,13 @@ code {
     monospace;
 }
 
+/* GitCommand button */
+#gitcommand-button {
+  text-transform: lowercase;
+  display: flex;
+  justify-content: flex-start;
+}
+
 /* the popup text upon copying */
 #copied-text {
   color: red;
