@@ -1,12 +1,16 @@
-import './App.css';
+import './index.css';
 import GitCommand from './components/GitCommand';
+import Footer from './components/Footer';
+import Link from '@material-ui/core/Link';
 
 function App() {
   return (
     <div className="App">
       <header>
-        <code id="title">💻 Git Good 💪🏼</code>
+        <img alt="git-good-logo" src="git-good-logo400.png" id="logo-image"></img>
+        <code id="title">Git Good</code>
         <p class="subtitle">Click/tap to copy git commands to your clipboard</p>
+        <p>For further learning, see the<Link href="https://git-scm.com/"> official git documentation</Link></p>
       </header>
       {/* LIST OF GIT COMMANDS */}
       <h2>General Use and Navigation</h2>
@@ -32,11 +36,11 @@ function App() {
       <h2>Help!</h2>
       <GitCommand name="git status" command="git status" tooltip="displays working directory state"/>
       <GitCommand name="git reset HEAD~" command="git reset HEAD~" tooltip="undo previous commit"/>
-      <GitCommand name="git reflog expire --expire-unreachable=now --all" command="git reflog expire --expire-unreachable=now --all" tooltip="removes all references of unreachable commits in reflog"/>
+      <GitCommand name="git reflog" command="git reflog <subcommand>" tooltip="removes all references of unreachable commits in reflog"/>
       <GitCommand name="git gc --prune=now" command="git gc --prune=now" tooltip="removes loose commits regardless of age"/>
-
-      <footer id="footer-temporary">2020 Mark Ohanesian </footer>
-      <a href="https://github.com/markohanesian?tab=repositories">Github</a>
+      <Footer />
+      {/* <footer id="footer-temporary">2020 Mark Ohanesian </footer>
+      <a href="https://github.com/markohanesian?tab=repositories">Github</a> */}
     </div>
   );
 }
