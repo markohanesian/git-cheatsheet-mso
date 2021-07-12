@@ -20,9 +20,8 @@ To copy commands, click to copy it to your clipboard!
 * React-transition-group
 
 ## Planned Features/Outstanding Issues
-* Animated text upon copying to clipboard
 * Dark/light modes
-* Updated styling
+* Infinite click copy animation
 
 ## Authors
 * [Mark Ohanasian](https://github.com/markohanesian) 
