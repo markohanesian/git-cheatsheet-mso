@@ -15,6 +15,7 @@ class GitCommand extends React.Component {
         <Tooltip title={this.props.tooltip} placement="top-start" enterTouchDelay="0s">
           <Button id="gitcommand-button">
             <CopyToClipboard
+              id="gc-button-click-area"
               text={this.state.value}
               onCopy={() => this.setState({ copied: true })}
             >
