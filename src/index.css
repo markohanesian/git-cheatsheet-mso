@@ -11,6 +11,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -27,25 +32,20 @@ header {
 #title {
   display: flex;
   align-self: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 500;
 }
 
-.subtitle {
-  font-size: 1.2rem;
+#git-link {
+  font-weight: bold;
 }
 
 h2 {
   margin-top: 3rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   display: flex;
   align-self: center;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 /* GitCommand button */
