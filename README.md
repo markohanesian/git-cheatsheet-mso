@@ -2,7 +2,7 @@
 ![Git Good Website Image](/public/gitgood-thumbnail.png)
 
 ## Links
-* [Link to site](http://gitgood.me/)
+* [Link to site](https://git-cheatsheet-mso.netlify.app/)
 
 ## Description
 A cheatsheet of my most used/favorite git commands with copy to clipboard functionality
