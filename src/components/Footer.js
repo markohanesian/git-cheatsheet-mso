@@ -36,7 +36,7 @@ export default function BottomAppBar() {
         <Toolbar>
             <div>
                 <Typography variant="body1" color="black" gutterBottom>
-                    2020 Mark Ohanesian
+                    2024 Mark Ohanesian
                 </Typography>
             </div>
           <div className={classes.grow} />
