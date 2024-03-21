@@ -21,10 +21,10 @@ To copy commands, click to copy it to your clipboard!
 
 ## Planned Features/Outstanding Issues
 * Dark/light modes
-* Infinite click copy animation
+* Fix infinite click copy animation
 
 ## Authors
-* [Mark Ohanasian](https://github.com/markohanesian) 
+* [Mark Ohanesian](https://github.com/markohanesian) 
 
 ## Acknowledgments
 
