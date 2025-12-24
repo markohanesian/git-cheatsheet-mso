@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  # Optional: uncomment to enable OpenSSL legacy provider if needed
+  # NODE_OPTIONS = "--openssl-legacy-provider"
